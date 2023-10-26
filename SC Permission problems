@@ -1,0 +1,15 @@
+Unable to retrieve child resources
+
+ProducerError:{
+  "name": "Node Fetch Error",
+  "message": "Connect Timeout Error",
+  "stack": "ConnectTimeoutError: Connect Timeout Error\n    at onConnectTimeout (C:\\Program Files\\Microsoft Azure Storage Explorer\\resources\\app\\node_modules\\undici\\lib\\core\\connect.js:182:24)\n    at C:\\Program Files\\Microsoft Azure Storage Explorer\\resources\\app\\node_modules\\undici\\lib\\core\\connect.js:129:46\n    at Immediate._onImmediate (C:\\Program Files\\Microsoft Azure Storage Explorer\\resources\\app\\node_modules\\undici\\lib\\core\\connect.js:168:33)\n    at process.processImmediate (node:internal/timers:476:21)",
+  "cause": {
+    "cause": {
+      "name": "ConnectTimeoutError",
+      "code": "UND_ERR_CONNECT_TIMEOUT",
+      "message": "Connect Timeout Error"
+    }
+  },
+  "code": "UND_ERR_CONNECT_TIMEOUT"
+}
